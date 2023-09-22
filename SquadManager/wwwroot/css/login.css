@@ -1,0 +1,35 @@
+﻿section {
+    display:flex;
+    flex-direction: column;
+    width:500px;
+    align-items: center;
+    border: 1px solid black;
+    margin:150px auto;
+}
+
+form {
+    display:flex;
+    flex-direction:column;
+}
+
+    form a {
+        text-align: right;
+    }
+
+input{
+    margin: 20px 0;
+}
+
+button {
+    margin-top: 20px;
+    background-color: lightgreen;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: white;
+    border: none;
+}
+
+label {
+
+    margin-bottom: 30px;
+}
