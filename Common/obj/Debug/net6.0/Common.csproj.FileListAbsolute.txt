@@ -1,0 +1,11 @@
+C:\Users\nathanael.leite\Desktop\Projetos\meus\SquadManager\Common\bin\Debug\net6.0\Common.deps.json
+C:\Users\nathanael.leite\Desktop\Projetos\meus\SquadManager\Common\bin\Debug\net6.0\Common.dll
+C:\Users\nathanael.leite\Desktop\Projetos\meus\SquadManager\Common\bin\Debug\net6.0\Common.pdb
+C:\Users\nathanael.leite\Desktop\Projetos\meus\SquadManager\Common\obj\Debug\net6.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nathanael.leite\Desktop\Projetos\meus\SquadManager\Common\obj\Debug\net6.0\Common.AssemblyInfoInputs.cache
+C:\Users\nathanael.leite\Desktop\Projetos\meus\SquadManager\Common\obj\Debug\net6.0\Common.AssemblyInfo.cs
+C:\Users\nathanael.leite\Desktop\Projetos\meus\SquadManager\Common\obj\Debug\net6.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\nathanael.leite\Desktop\Projetos\meus\SquadManager\Common\obj\Debug\net6.0\Common.dll
+C:\Users\nathanael.leite\Desktop\Projetos\meus\SquadManager\Common\obj\Debug\net6.0\refint\Common.dll
+C:\Users\nathanael.leite\Desktop\Projetos\meus\SquadManager\Common\obj\Debug\net6.0\Common.pdb
+C:\Users\nathanael.leite\Desktop\Projetos\meus\SquadManager\Common\obj\Debug\net6.0\ref\Common.dll
