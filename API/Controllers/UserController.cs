@@ -18,7 +18,10 @@ namespace API.Controllers
         /// <returns></returns>
         [HttpPost]
         public IActionResult Login(UserModel user) {
-            return Ok(new { response = "Bem vindo "+ user.Email + "!!!"});
+            if(user.Password == "123")
+                return Ok(new { response = "OK"});
+            else
+                return Ok(new { response = "ERROR" });
         }
     }
 }

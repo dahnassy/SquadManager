@@ -1,0 +1,27 @@
+﻿@model SquadManager.Models.UserViewModel
+
+@{
+    Layout = null;
+}
+<link href="~/css/login.css" rel="stylesheet" />
+<section>
+    <h1>Crie sua conta</h1>
+
+    <form id="form">
+        <input type="text" name="username" id="username"  placeholder="Username" />
+        <input type="text" name="email" id="email"  placeholder="Email" />
+        <input type="password" name="password" id="password"  placeholder="Senha" />
+        
+        <input type="password" name="confirmpassword" id="confirmpassword"  placeholder="Confirmar Senha" />
+        <a href="#">Esqueceu a senha?</a>
+
+        <button type="submit" onclick="login(event);"> Criar </button>
+
+    </form>
+
+</section>
+
+<script src="~/js/login.js"></script>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/jquery/dist/jquery.js"></script>

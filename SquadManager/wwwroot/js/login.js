@@ -14,10 +14,15 @@
         data: JSON.stringify(formData),
         url: "https://localhost:44366/api/User",
         success: function (result) {
-
+            if (result.response == "OK")
+                alert("Logado")
+            else
+                alert("Credenciais Invalidas!")
         },
 
-        error: function (error) { }
+        error: function (error) {
+            console.log(error);
+        }
 
     })
 }
