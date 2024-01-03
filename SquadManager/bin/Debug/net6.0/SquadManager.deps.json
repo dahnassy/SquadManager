@@ -99,6 +99,7 @@
       "API/1.0.0": {
         "dependencies": {
           "Common": "1.0.0",
+          "FluentValidation.AspNetCore": "11.3.0",
           "Repository": "1.0.0",
           "Swashbuckle.AspNetCore": "6.5.0"
         },

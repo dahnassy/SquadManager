@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZDHg4STmLlk6ZiQNzdNSDImKzsy6B56nLGYO8LjfTO0=",
+  "Hash": "4WR746nl3Qaaps5IpLfahK24MUvqRmXAiWaWhnvEsSE=",
   "Source": "SquadManager",
   "BasePath": "_content/SquadManager",
   "Mode": "Default",
@@ -129,6 +129,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\login.js"
+    },
+    {
+      "Identity": "C:\\Users\\nathanael.leite\\Desktop\\Projetos\\meus\\SquadManager\\SquadManager\\wwwroot\\js\\signup.js",
+      "SourceId": "SquadManager",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nathanael.leite\\Desktop\\Projetos\\meus\\SquadManager\\SquadManager\\wwwroot\\",
+      "BasePath": "_content/SquadManager",
+      "RelativePath": "js/signup.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\signup.js"
     },
     {
       "Identity": "C:\\Users\\nathanael.leite\\Desktop\\Projetos\\meus\\SquadManager\\SquadManager\\wwwroot\\js\\site.js",

@@ -34,3 +34,6 @@ C:\Users\nathanael.leite\Desktop\Projetos\meus\SquadManager\API\obj\Debug\net6.0
 C:\Users\nathanael.leite\Desktop\Projetos\meus\SquadManager\API\obj\Debug\net6.0\API.pdb
 C:\Users\nathanael.leite\Desktop\Projetos\meus\SquadManager\API\obj\Debug\net6.0\API.genruntimeconfig.cache
 C:\Users\nathanael.leite\Desktop\Projetos\meus\SquadManager\API\obj\Debug\net6.0\ref\API.dll
+C:\Users\nathanael.leite\Desktop\Projetos\meus\SquadManager\API\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\nathanael.leite\Desktop\Projetos\meus\SquadManager\API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\nathanael.leite\Desktop\Projetos\meus\SquadManager\API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll

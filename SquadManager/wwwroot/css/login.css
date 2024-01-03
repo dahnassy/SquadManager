@@ -33,3 +33,12 @@ label {
 
     margin-bottom: 30px;
 }
+
+.error {
+    height: 20px;
+}
+
+.error span{
+    color: red;
+
+}
