@@ -33,5 +33,12 @@ namespace SquadManager.Controllers
         public IActionResult SignUp() {
         return View();
         }
+        
+        public IActionResult Forgot() {
+        return View();
+        }
+        public IActionResult Reset() {
+        return View();
+        }
     }
 }

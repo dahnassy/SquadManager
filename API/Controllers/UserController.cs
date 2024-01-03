@@ -45,5 +45,24 @@ namespace API.Controllers
             else
                 return Ok(new { response = "ERROR" });
         }
+
+        [HttpPost("forgot")]
+        public IActionResult Forgot([FromBody] string email) {
+            
+            UserValidator validator = new UserValidator();
+
+            //ValidationResult results = validator.Validate(email);
+
+            if (results.IsValid) { 
+                foreach (var failure in results.Errors) {
+                    Console.WriteLine("Property "+ failure.PropertyName+ "failed validation");
+                }
+            }
+
+
+            
+                return Ok(new { response = "OK"});
+            
+        }
     }
 }

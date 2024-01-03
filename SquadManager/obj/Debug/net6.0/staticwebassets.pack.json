@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\nathanael.leite\\Desktop\\Projetos\\meus\\SquadManager\\SquadManager\\wwwroot\\js\\forgot.js",
+      "PackagePath": "staticwebassets\\js\\forgot.js"
+    },
+    {
       "Id": "C:\\Users\\nathanael.leite\\Desktop\\Projetos\\meus\\SquadManager\\SquadManager\\wwwroot\\js\\login.js",
       "PackagePath": "staticwebassets\\js\\login.js"
     },

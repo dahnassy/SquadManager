@@ -1,4 +1,4 @@
-﻿function login(event) {
+﻿function signUp(event) {
 
     event.preventDefault();
 
