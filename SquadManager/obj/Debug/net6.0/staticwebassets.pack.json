@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\js\\login.js"
     },
     {
+      "Id": "C:\\Users\\nathanael.leite\\Desktop\\Projetos\\meus\\SquadManager\\SquadManager\\wwwroot\\js\\reset.js",
+      "PackagePath": "staticwebassets\\js\\reset.js"
+    },
+    {
       "Id": "C:\\Users\\nathanael.leite\\Desktop\\Projetos\\meus\\SquadManager\\SquadManager\\wwwroot\\js\\signup.js",
       "PackagePath": "staticwebassets\\js\\signup.js"
     },

@@ -1,14 +1,21 @@
 using Microsoft.AspNetCore.Builder;
+using Microsoft.EntityFrameworkCore;
+using Repository;
+using Repository.Context;
 
 namespace API
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static void Main(string[] args )
         {
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+
+            
+
+            addScope(builder.Services);
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -48,6 +55,15 @@ namespace API
             app.Run();
 
             
+        }
+
+        private static void addScope(IServiceCollection services)
+        {
+            
+            services.AddDbContext<EFContext>(options =>
+                options.UseSqlServer("Server=(localdb)\\mssqllocaldb;DataBase=EFCore; Trusted_connection=True;"));
+
+            services.AddScoped<IUserRepository, UserRepository>();
         }
     }
 }
