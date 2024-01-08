@@ -1,3 +1,4 @@
+using API.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Repository;
@@ -64,6 +65,7 @@ namespace API
                 options.UseSqlServer("Server=(localdb)\\mssqllocaldb;DataBase=EFCore; Trusted_connection=True;"));
 
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IUserService, UserService>();
         }
     }
 }

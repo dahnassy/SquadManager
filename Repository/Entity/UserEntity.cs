@@ -9,7 +9,7 @@ namespace Repository.Entity
 {
     public class UserEntity
     {
-        public string? id { get; set; }
+        public int Id { get; set; }
 
         public string Type { get; set; }
 
