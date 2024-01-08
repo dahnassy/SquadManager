@@ -15,7 +15,7 @@ namespace API.Services
         public void AddUser(UserModel model) {
             UserEntity entity = new UserEntity() { 
                 Password = model.Password,  
-                Type = EnumType.ADMIN.ToString()
+                Type = EnumType.ADMIN.ToString(),
             };
             _userRepository.Add(entity);
         }
